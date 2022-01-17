@@ -12,9 +12,59 @@ body {
 
 .leftcolumn{
     display: inline-block;
-    width: 42%;
-    height: 100vh;
-    background-color: aqua;
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 32%;
+    background-color: #fff;
+}
+
+.leftcolumn > .top{
+    color: #4054DA;
+    font-size: 20px;
+    margin-top: 5%;
+}
+
+.leftcolumn > .textbox{
+    margin-top: 10%;
+}
+
+.leftcolumn > .textbox > .bigname{
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.leftcolumn > .textbox > .smalltext{
+    font-size: 20px; 
+    color: #8D909E;
+    margin-bottom: 20px;    
+}
+
+.textbox  .capital{
+    text-transform: capitalize;
+}
+
+.form > .form-row{
+    border-style: solid;
+    border-width: 1px;
+}
+
+form *{
+    display: block;
+    width: 100%;
+    padding: 10px;
+    font-size: 25px;    
+}
+
+.form-row >.form-label{
+    text-transform: capitalize;
+}
+
+.form-row > .form-input{
+    color: #4054DA;
+    border: none;
+}
+
+::placeholder{
+    color: #4054DA; 
 }
 
 .rightcolumn{
@@ -22,5 +72,7 @@ body {
     width: 57%;
     height: 100vh;
     background-image: url(../img/bg1.jpg);
-    background-size: contain;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom left;
 }
