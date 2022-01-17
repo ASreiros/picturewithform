@@ -1,0 +1,26 @@
+body,
+body * {
+    margin: 0;
+    padding: 0;
+    vertical-align: top;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.leftcolumn{
+    display: inline-block;
+    width: 42%;
+    height: 100vh;
+    background-color: aqua;
+}
+
+.rightcolumn{
+    display: inline-block;
+    width: 57%;
+    height: 100vh;
+    background-image: url(../img/bg1.jpg);
+    background-size: contain;
+}
