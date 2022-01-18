@@ -103,15 +103,69 @@ form *{
 .button > .clicky{
     border-width: 1px;
     border-style: solid;
-    border-color: #4054DA;
-    padding: 15px;
+    border-color: #3751FF;
+    height:50px;
+    /* padding: 15px;
     padding-left: 50px;
-    padding-right: 50px;
-    border-radius: 4px;
+    padding-right: 50px; */
+    border-radius: 4px; 
 }
 
+.button > .first{
+    background-color: #3751FF; 
+}
 
+.button > .second{
+    background-color: #fff; 
+    float:right;
+    margin-right: 50%;
+}
 
+.button .clicky-text{
+    text-decoration: none;
+    font-size: 12px;
+    text-transform: capitalize;
+    font-weight: bolder;
+    padding: 15px;
+    padding-left: 45px;
+    padding-right: 45px;
+}
+
+.first-text{
+    color: #fff;
+}
+
+.second-text{
+    color: #3751FF;
+}
+
+button:hover{
+    padding: 5px;    
+} 
+
+.linkcontainer{
+    margin-top: 80px;
+}
+
+.linkcontainer *{
+    display: inline;
+    font-size: 16px;
+    margin-right: 70px;
+    text-decoration: none;
+}
+
+.linkcontainer > .bottom-text{
+    color:#8D909E;
+}
+
+.linkcontainer > .bottom-link{
+    color:#4054DA;
+    font-weight: bolder;
+}
+
+.linkcontainer > .bottom-link:hover{
+    opacity: 0.6;
+}
 
 .rightcolumn{
     display: inline-block;
