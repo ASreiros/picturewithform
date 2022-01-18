@@ -22,6 +22,7 @@ body {
     color: #4054DA;
     font-size: 20px;
     margin-top: 5%;
+    font-weight: bolder;
 }
 
 .leftcolumn > .textbox{
@@ -63,9 +64,54 @@ form *{
     border: none;
 }
 
+.form-row:hover {
+    border-left-color: #4054DA;
+    border-left-width: 5px;
+    border-left-style: bold;
+}
+
 ::placeholder{
     color: #4054DA; 
 }
+
+.memory{
+    margin-top:5%;
+}
+
+.memory > *{
+    color:#8D909E;    
+}
+
+.memory > .box{
+    margin-top: 3px;
+    margin-right: 5px;
+}
+
+.memory > .forgetfulness{
+    float:right;
+    text-decoration: none;
+}
+
+.memory > .forgetfulness:hover{
+    opacity: 0.6;
+}
+
+.button{
+    margin-top: 7%;
+}
+
+.button > .clicky{
+    border-width: 1px;
+    border-style: solid;
+    border-color: #4054DA;
+    padding: 15px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 4px;
+}
+
+
+
 
 .rightcolumn{
     display: inline-block;
